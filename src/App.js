@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import ListadoPersonajes from './components/ListadoPersonajes';
 import './App.css';
+import Navbar from './components/navbar';
 
 function App() {
   return (
-    <div className="container">
-      <ListadoPersonajes></ListadoPersonajes>
+    <div>
+      <Navbar></Navbar>
+      <div className='container'>
+          <div className='d-flex justify-content-center'>
+              <h1 className='p-5'>Pagina Principal</h1>
+          </div>
+      </div>
     </div>
   );
 }
